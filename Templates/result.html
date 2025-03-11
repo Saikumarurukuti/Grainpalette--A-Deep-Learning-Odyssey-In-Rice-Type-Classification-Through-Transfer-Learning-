@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result - Rice Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-5 text-center">Prediction Result</h1>
+        <div class="text-center">
+            <h3>Classified Rice Type: {{ prediction }}</h3>
+            <img src="{{ image_url }}" alt="Uploaded Rice Image" class="img-fluid mt-4" width="300">
+            <br><br>
+            <a href="/" class="btn btn-primary">Classify Another Image</a>
+            <a href="/details" class="btn btn-info">Learn More About the App</a>
+        </div>
+    </div>
+</body>
+</html>
